@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 public class BaseClass {
     public static WebDriver driver;
 
-    @BeforeClass
+
     public static void IntiateDriver() {
         System.setProperty("webdriver.chrome.driver", "./ChromeDriver/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
